@@ -1,0 +1,762 @@
+
+*{
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'josefin sans';
+}
+
+html {
+    font-size: 62.5%;
+    
+  }
+
+/*parte do cabeçalho*/
+header{
+    font-size: 1.6rem;
+    width: 83.5%;
+    height: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Josefin Sans';
+    
+    
+}
+
+header a{
+    color: #000;
+    
+
+}
+
+header a:hover{
+    color: teal;
+    
+    
+
+}
+
+header button{
+    width: 13.5rem;
+    height: 43px;
+    background: #2D635E;
+    border-radius: 7px;
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    
+}
+
+header button:hover{
+    background: teal;
+
+}
+
+.menuham{
+    display: none;
+}
+
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    gap:4.5rem
+       
+}
+
+
+/*Limitando todo o cantainer*/
+
+
+.container{
+    width: 83.5%;
+    margin-left:auto;
+    margin-right: auto;
+
+
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+#cursive{
+    font-family: 'Cedarville Cursive';
+    font-size: 2.8rem;
+}
+
+#coffe{
+    font-weight: 700;
+    font-size: 6.3rem;
+}
+
+#botoes{
+    width: 23.5rem;
+    height: 54px;
+    background: #2D635E;
+    border-radius: 5px;
+    font-family: 'Josefin Sans';
+    font-size: 2rem;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+#botoes:hover{
+    background: teal;
+
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 13rem;
+    gap:2.6rem;
+    
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+    
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 9rem;
+    
+    
+}
+
+#rotacionar{
+    font-size: 2.8rem;
+    transform: rotate(-90deg);
+    margin-top: 5rem;
+    
+    
+}
+
+/*2 seção - about us*/
+
+.container2{
+    width: 78.3%;
+    margin-left:auto;
+    margin-right: auto;
+
+
+}
+
+.about{
+    display: flex;
+    margin-top: 6.7rem;
+    justify-content: center;
+    gap: 9rem;
+    
+    
+}
+
+#xicaramobile{
+    display: none;
+}
+
+#about p{
+    font-family: "Cedarville Cursive";
+    font-size: 2.8rem;
+}
+
+#textabout{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    
+}
+
+#text{
+    font-family: "alegreya Sans";
+    font-size: 1.9rem;
+    line-height: 3.6rem;
+    
+}
+
+#title{
+    font-weight: 700;
+    font-size: 3.8rem;
+}
+
+
+#samwayle {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5.2rem;
+        
+}
+
+/*parte da promoção*/
+
+.promotion{
+    display: flex;
+    margin-top: 14rem;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+
+
+#coffeday{
+    display:flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    
+}
+
+
+#promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+#copomobile{
+    display: none;
+}
+
+
+#promotion p{
+    font-family: "Cedarville Cursive";
+    font-size: 2.8rem;
+    
+}
+
+#textpromotion{
+    margin-top: 4.4rem;
+}
+
+#botaopromotion{
+    margin-top: 2.4rem;
+}
+
+
+/*parte dos cards*/
+
+.card{
+    margin-top: 8rem;
+    height: 52.8rem;
+    background-color: #E3EBE7;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+#cards{
+    display: flex;
+    width: 72.2%;
+    gap: 3rem;
+    
+}
+
+#card{
+    width: 34rem;
+    height: 46rem;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+    border-radius: 25px;
+    
+    
+}
+
+#titlecard{
+    font-weight: 700;
+    font-size: 2.8rem;
+    padding-top: 4.4rem;
+    
+}
+
+#textcard{
+    line-height: 3.6rem;
+    font-size: 1.9rem;
+    width:26rem;
+    margin: auto;
+    margin-top: 2.5rem;
+    Width :22.4rem;
+    Height :21.7rem;
+    font-family: "alegreya Sans";
+    
+}
+
+#botaocard{
+    margin-top:4.3rem;
+
+}    
+
+
+/*parte dos contatos*/
+
+.contact{
+    height: 52.8rem;
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mapscontacts p{
+    padding-top: 6.2rem;
+    
+}
+
+.textcontacts{
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+#titlecontacts{
+    font-size: 3.2rem;
+}
+
+#textcontact{
+    display: flex;
+    flex-direction: column;
+    font-family: "alegreya sans";
+    font-size: 1.9rem;
+    margin-top: 2.5rem;
+    gap: 1.6rem;
+
+}
+.mapscontacts p{
+    font-family: "Cedarville Cursive";
+    font-size: 2.8rem;
+    
+}
+
+#botaoctt{
+    display: none;
+}
+
+#mapamobile{
+    display: none;
+}
+
+/*footer*/
+
+footer{
+    height: 4.8rem;
+    font-family: "alegreya sans";
+    font-size: 1.9rem;
+    text-align: center;
+    
+
+}
+
+footer p{
+    padding-top: 2rem;
+}
+
+ @media (max-width: 1140px) { 
+
+
+    header{
+        font-size: 1.6rem;
+        width: 76%;
+        height: 9.5rem;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Josefin Sans';
+        
+    }
+
+    .menuham{
+        display: flex;
+    }
+    
+    
+    
+    .menu{
+        display: none;
+           
+    }
+    
+    
+    /*Limitando todo o cantainer*/
+    
+    .container{
+        width: 76%;
+        margin-left:auto;
+        margin-right: auto;
+        
+    }
+    
+    .secao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+    } 
+    
+    .imgs{
+        display: none;
+    }
+    
+    /*2 seção - about us*/
+    
+    .container2{
+        width: 78.3%;
+        margin-left:auto;
+        margin-right: auto;
+        
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 6.7rem;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem;
+               
+    }
+
+    #xicaradesk{
+        display: none;
+    }
+
+    #xicaramobile{
+        display: flex;
+    }
+        
+    #about p{
+        display: none;
+    }
+    
+    #textabout{
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        
+        
+    }
+    
+    /*parte da promoção*/
+    
+    .promotion{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 14rem;
+        justify-content: center;
+        gap: 10rem;
+        
+    }
+    
+    #promotion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #copodesk{
+        display: none;
+    }
+
+    #copomobile{
+        display: flex;
+    }
+    
+    
+    #promotion p{
+        display: none;
+        
+    }
+        
+    #botaopromotion{
+        display: none;
+    }
+    
+        /*parte dos cards*/
+    
+    .card{
+        height: 150rem;
+        background-color: #E3EBE7;
+                
+    }
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+                
+    }
+    
+    #card{
+        width: 34rem;
+        height: 46rem;
+        background-color: white;
+        text-align: center;
+        box-shadow: 0px 23px 34px rgba(35, 57, 55, 0.17);
+        border-radius: 25px; 
+        
+    }
+    
+          
+    /*parte dos contatos*/
+    
+    .contact{
+        height: 58rem;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 9rem;
+ 
+    }
+    
+    
+    .mapscontacts p{
+        display: none;
+        
+    }
+
+    #escondercont{
+        display: none;
+    }
+
+
+    #botaoctt{
+        display:block;
+                 
+    }
+
+    #botaoctt button{
+        width: 19rem;
+        height: 5.3rem;
+        background: #FFFFFF;
+        
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        color: rgb(0, 0, 0);
+        border: none;
+        cursor: pointer;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.17);
+        border-radius: 5px;
+    }
+    
+    /*footer*/
+    
+    footer{
+        margin-top: 10rem;
+        
+        font-family: "alegreya sans";
+        font-size: 1.9rem;
+        text-align: center;
+      
+    }
+    
+ }
+
+ 
+@media (max-width: 650px) { 
+
+    /*Limitando todo o cantainer*/
+    
+    
+    .secao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      
+    }    
+        
+    .imgs{
+        display: none;
+    }
+
+    #coffe{
+        font-size: 4.7rem;
+    }
+
+    .textos{
+        margin-top: 11rem;
+    }
+
+    #cursive{
+        font-size: 1.8rem;
+    }
+        
+    /*2 seção - about us*/
+    
+    .container2{
+        
+        margin-top: 11rem;
+        
+    }
+    
+    .about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 6.7rem;
+        justify-content: center;
+        align-items: center;
+        gap: 9rem;
+        
+        
+    }
+
+    #xicaradesk{
+        display: none;
+    }
+
+    #xicaramobile{
+        display: flex;
+    }
+    
+    
+    #about p{
+        display: none;
+    }
+    
+    #textabout{
+        margin-top: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        
+        
+    }
+    
+    /*parte da promoção*/
+    
+    .promotion{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 14rem;
+        justify-content: center;
+        gap: 10rem;
+        
+    }
+    
+  
+    
+    #promotion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #copodesk{
+        display: none;
+    }
+
+    #copomobile{
+        display: flex;
+    }
+    
+    
+    #promotion p{
+        display: none;
+        
+    }
+    
+    
+    #botaopromotion{
+        display: none;
+    }
+    
+    
+    /*parte dos cards*/
+    
+    .card{
+        height: 150rem;
+        background-color: #E3EBE7;
+                
+    }
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+                
+    }
+   
+    /*parte dos contatos*/
+    
+    .contact{
+        height: 58rem;
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 9rem;
+ 
+    }
+    
+    
+    .mapscontacts p{
+        display: none;
+        
+    }
+
+    #escondercont{
+        display: none;
+    }
+
+    #mapadesk{
+        display: none;
+    }
+
+    #mapamobile{
+        display: block;
+    }
+  
+    /*footer*/
+    
+    footer{
+        
+        font-family: "alegreya sans";
+        font-size: 1.9rem;
+        text-align: center;
+           
+    }
+    
+ }
+
+
+ 
