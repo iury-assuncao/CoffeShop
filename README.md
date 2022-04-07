@@ -22,4 +22,4 @@ O objetivo desse projeto é colocar em prática os conhecimentos de flexbox e re
 <br><br>
 <h1>💻 Acessar página</h1>
 
-<p>Para acessar a página acesse o link : <a href="https://iury-assuncao.github.io/CoffeShop/" target="_blank">CoffeShop</a>
+<p>Para acessar a página acesse o link : <a href="https://iury-assuncao.github.io/Zomentum/" target="_blank">Zomentum  </a>
